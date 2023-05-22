@@ -59,4 +59,54 @@ body {
   width: 10%;
   cursor: pointer;
   margin: 0px 0px 12px 0px;
+}
+
+.current-time {
+  display: flex;
+  gap: 20px;
+  padding: 5% 0% 0% 11%;
+  font-weight: 600;
+  font-size: 35px;
+}
+
+#hours,
+#minutes,
+#seconds {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #1f1e1e;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.time-separator {
+  padding: 20px 0px;
+}
+
+.API-data {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 10% 0% 10% 0%;
+}
+
+#pokemon1,
+#pokemon2,
+#pokemon3 {
+  background-color: #1f1e1e;
+  width: 20%;
+  height: 20%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 10px;
+}
+
+.API-data-ttl {
+  text-align: center;
+  margin: 20px;
 }/*# sourceMappingURL=styles.css.map */
